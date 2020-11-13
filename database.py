@@ -6,6 +6,7 @@ from app import app, db
 from app.models import Employee, Menu, MenuItem, MenuItemType, Table
 
 
+
 with app.app_context():
     db.drop_all()
     db.create_all()
