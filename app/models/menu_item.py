@@ -1,4 +1,4 @@
-from . import db, Menu, MenuItemType
+from . import db
 
 class MenuItem(db.Model):
     __tablename__ = "menu_items"

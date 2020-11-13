@@ -1,4 +1,4 @@
-from . import db, Order, MenuItem
+from . import db
 
 class OrderDetail(db.Model):
     __tablename__ = "order_details"

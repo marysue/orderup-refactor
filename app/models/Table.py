@@ -1,4 +1,4 @@
-from . import db, Order
+from . import db
 
 
 class Table(db.Model):
